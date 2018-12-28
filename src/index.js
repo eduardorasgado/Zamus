@@ -57,5 +57,5 @@ app.on('ready',() =>{
     //win.loadURL("http://devdocs.io/");
     // cargando una web local, los archivos que forman parte de la
     // misma carpeta que el proyecto
-    win.loadURL(`file://${__dirname}/index.html`);
+    win.loadURL(`file://${__dirname}/renderer/index.html`);
 });
